@@ -1,0 +1,10 @@
+command: [
+  "streamlit", 
+  "run",
+  "app.py"
+]
+env:
+  - name: 'DATABRICKS_TOKEN'
+    value: '**ADD VALUE HERE**'
+  - name: 'DATABRICKS_HTTP_PATH'
+    value: '**ADD VALUE HERE**'

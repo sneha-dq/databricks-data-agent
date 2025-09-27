@@ -1,0 +1,8 @@
+streamlit==1.38.0
+pandas
+databricks.sdk
+langchain-community 
+databricks-langchain
+databricks-sql-connector
+databricks-sqlalchemy
+databricks-connect
