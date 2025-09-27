@@ -100,5 +100,31 @@ During the development of this robust application, several key challenges relate
     
 4.  Databricks SDK Versioning: Correctly parsing the Model Serving endpoint status required debugging the SDK object structure, finding that endpoint.state.current was outdated and replacing it with more robust checks to confirm STATE_READY.
     
+## 4\. Screenshots
 
-\*\*
+### Landing Page
+![Landing Page](snapshots/Snapshot1_LandingPage.png)
+
+### Choose LLM
+![Choose LLM](snapshots/Snapshot2_LLMs.png)
+
+### Choose Agent
+![Choose Agent](snapshots/Snapshot3_Agents.png)
+
+### Chat Agent
+![Chat Agent](snapshots/Snapshot4_ChatAgent.png)
+
+### Data Agent
+![Data Agent Query](snapshots/Snapshot5a_DataAgent_Query.png)
+
+![Data Agent Response](snapshots/Snapshot5b_DataAgent_Response.png)
+
+### Databricks Deployment Config
+![Databricks Deployment Config](snapshots/Snapshot6_DBX_Agent_DeployConfig_1.png)
+
+![Databricks Deployment Config](snapshots/Snapshot6_DBX_Agent_DeployConfig_2.png)
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+See [LICENSE](LICENSE) for details.
